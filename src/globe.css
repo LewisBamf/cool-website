@@ -1,0 +1,13 @@
+.globe-gif{
+    border-radius: 55%;
+    width: 35%;
+    height: auto;
+    aspect-ratio: 1/1;
+    
+}
+
+@media only screen and (max-width: 600px){
+  .globe-gif{
+    width: 90%
+  }
+}
