@@ -4,10 +4,8 @@ import Globegif from "./Globe.js";
 import Workercards from "./Workers.js";
 import Navbar from "./Navbar.js";
 import Maintitle from "./Title.js";
+
 export default class App extends Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     return (
       <>
@@ -20,9 +18,9 @@ export default class App extends Component {
           </div>
         </div>
 
-          <div className="grid-item">
-            <Workercards />
-          </div>
+        <div className="grid-item Workercards">
+          <Workercards />
+        </div>
       </>
     )
   }
