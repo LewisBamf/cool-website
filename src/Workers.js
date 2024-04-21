@@ -1,16 +1,19 @@
-import React, { Component } from "react"
-import './workers.css'
-export default class Workercards extends Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
-    return (
-      <>
-        <div className="card"></div>
-        <div className="card"></div>
-        <div className="card"></div>
-      </>
-    )
-  }
-}
+import React from 'react';
+import { Fade } from "react-awesome-reveal";
+import './workers.css';
+
+const Workercards = () => {
+
+  return (
+    <div className="cards">
+      <Fade>
+      <div className="card" ></div>
+      <div className="card" ></div>
+      <div className="card" ></div>
+      </Fade>
+    </div>
+  );
+
+};
+
+export default Workercards

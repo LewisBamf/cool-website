@@ -1,14 +1,14 @@
-import React, { Component } from "react"
+import React from "react";
+import logo from './logo.svg';
 import './navbar.css';
-export default class Navbar extends Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
+
+
+const Navbar = () => {
     return (
+        <>
       <div className="navbar">
         <svg view-box="50px 50px">
-          <image href="/assets/logo.svg" alt="logo" className="logo" />
+          <image href={logo} alt="logo" className="logo" />
         </svg>
 
         <div className="nav-links">
@@ -18,6 +18,8 @@ export default class Navbar extends Component {
           <h2>about us</h2>
         </div>
       </div>
+      </>
     )
   }
-}
+
+  export default Navbar;

@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import './App.css';
-
+import Globegif from "./Globe.js";
 import Workercards from "./Workers.js";
 import Navbar from "./Navbar.js";
 import Maintitle from "./Title.js";
-import Globe from './Globe.js';
 export default class App extends Component {
   constructor(props) {
     super(props)
@@ -12,18 +11,18 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <navbar />
+        <Navbar />
 
         <div className="page-grid">
           <div className="grid-item">
             <Maintitle />
             <Globegif />
           </div>
+        </div>
 
           <div className="grid-item">
             <Workercards />
           </div>
-        </div>
       </>
     )
   }

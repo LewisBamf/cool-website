@@ -1,7 +1,7 @@
 .globe-gif{
-    border-radius: 55%;
+    border-radius: 50%;
     width: 35%;
-    height: auto;
+    object-fit: cover;
     aspect-ratio: 1/1;
     
 }

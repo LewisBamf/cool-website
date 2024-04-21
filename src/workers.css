@@ -15,3 +15,13 @@
 .card.clicked{
     transform: rotateX(180deg);
 }
+
+.cards {
+width: 80vw;
+height: max-content;
+margin-top: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+overflow: visible;
+}

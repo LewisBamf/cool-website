@@ -1,10 +1,8 @@
-import React, { Component } from "react"
+import React from "react"
 import './title.css';
-export default class Maintitle extends Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
+
+
+const Maintitle = () => {
     return (
       <>
         <h1>
@@ -17,4 +15,5 @@ export default class Maintitle extends Component {
       </>
     )
   }
-}
+
+  export default Maintitle;
