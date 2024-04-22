@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from './logo.svg';
 import './navbar.css';
 
@@ -12,10 +13,18 @@ const Navbar = () => {
         </svg>
 
         <div className="nav-links">
-          <h2>home</h2>
-          <h2>pricing</h2>
-          <h2>contact</h2>
-          <h2>about us</h2>
+          <h2>
+            <Link className="link" to="/">home</Link>
+            </h2>
+            <h2>
+            <Link className="link" to="*">prices</Link>
+            </h2>
+            <h2>
+            <Link className="link" to="*">contact</Link>
+            </h2>
+            <h2>
+            <Link className="link" to="*">About us</Link>
+            </h2>
         </div>
       </div>
       </>

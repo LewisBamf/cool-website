@@ -1,0 +1,20 @@
+h1{
+    font-size: 5vw;
+}
+
+h2{
+    font-size: 3vw;
+    color: var(--text);
+}
+
+.content {
+    width: 100vw;
+    margin-top: 30vh;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

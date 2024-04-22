@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import worker1 from './worker-photos/worker1.jpg';
 import worker2 from './worker-photos/worker2.jpg';
 import worker3 from './worker-photos/worker3.jpg';
@@ -9,7 +9,7 @@ const Workercards = () => {
 
   return (
     <div className="cards">
-      <Fade duration={800} cascade={true} damping={0.25}>
+      <Fade duration={800} cascade={true} damping={0.3}>
     <div className='card-container'>
       <div className="card" >
         <div className='card-front'>
@@ -62,13 +62,14 @@ const Workercards = () => {
         <div className='card-img3-back'></div>
         <div className='worker-description'>
         <div className='name'>Andrew</div>
-        <div className='position'>Senior ngineering manager</div>
+        <div className='position'>Senior engineering manager</div>
         <div className='testomonial'>"As the senior engineering manager, I've found immense fulfillment in leading our talented team. The collaborative spirit and dedication to excellence make every project a success. I'm grateful for the opportunities for growth and the supportive environment. It's a privilege to be part of such a dynamic organization."</div>
 
         </div>
         </div>
       </div>
     </div>
+    
       </Fade>
     </div>
   );

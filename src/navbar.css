@@ -40,12 +40,13 @@
     z-index: 1001;
 }
 
-h2{
+.link{
     color: var(--text);
     transition: opacity 0.3s ease;
+    text-decoration: none;
 }
 
-h2:hover{
+.link:hover{
     opacity: 0.6;
     cursor: pointer;
 }
